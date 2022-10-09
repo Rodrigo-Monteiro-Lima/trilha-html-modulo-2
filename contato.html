@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climenal</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="sobre.html">Sobre a Clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="modelo-de-logotipo-da-clinica-medica_8188-16.webp" alt="logo">
+                Climenal
+            </div>
+    
+            <div class="content">
+              <h3>Contato</h3>              
+              <p>Telefone: 75 4362-3456 / 1234-1513/ 5342-6778</p>
+              <p>Whatsapp: 75 9346-6783 / 78094-8234
+                75 97964-8073 / 95789-8097</p>
+              <p>Email: climenal@gmail.com</p>
+              <h5>Localização</h5>
+              <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>              
+              <form action="" method="GET">
+                <fieldset>
+                  <legend>Deixe sua mensagem</legend>
+                  <label for="name">Nome:
+                    <input type="text" name="" id="name" minlength="10" maxlength="40" required placeholder="Digite seu nome aqui">
+                  </label>
+                  <br>
+                  <label for="email">Email:
+                    <input type="email" name="" id="email" minlength="10" maxlength="50" required placeholder="Digite seu email aqui">
+                  </label>
+                  <br>
+                  <label for="subject">Assunto:
+                    <input type="text" name="subject" id="subject" placeholder="Digite o assunto" >
+                  </label>
+                  <br>
+                  <label for="message">Mensagem: <br>
+                    <textarea name="description" id="message" cols="48" rows="10" maxlength="500" required placeholder="Digite seu texto aqui"></textarea>
+                  </label>
+                  <br><br>
+                </fieldset>
+                <br>
+                <label for="submit-form">
+                  <button type="submit" id="submit-form" name="submit-form">Enviar</button>
+                </label>
+                <label for="clear-form">
+                  <button id="clear-form" name="clear-form">Limpar</button>
+                </label>
+             </form>
+            </div>
+    
+            <div class="footer">
+                © Copyright 2000 - 2022 Climenal | Todos os direitos reservados
+            </div>
+        </div>
+    </div>
+</body>
+</html>

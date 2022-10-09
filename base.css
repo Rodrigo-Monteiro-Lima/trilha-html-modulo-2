@@ -7,6 +7,10 @@ body {
     justify-content: center;
 }
 
+img {
+    max-width: 200px;
+}
+
 .wrapper {
     width: 1200px;
     display: flex;
@@ -26,6 +30,10 @@ body {
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
 }
 .content {
     background-color: white;
@@ -35,4 +43,7 @@ body {
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
